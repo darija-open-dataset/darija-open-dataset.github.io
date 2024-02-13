@@ -498,3 +498,17 @@
   content: "";
   background: rgba(0, 0, 0, .5);
 }
+
+/* profile card page fix */
+
+.table-responsive {
+  overflow: hidden; /* hiding the scroll, as it's never needed. the card is flexible by itself */
+}
+
+.profile-page .page-header .container{
+  padding-top: 20vh; /* the default value is 30vh, but set to 20vh due to layout issue on screens <= 752px */
+}
+
+.card.card-coin .card-header {
+  margin: -90px  auto 20px; /*  the default value is -100px, but set to -90px due to image covering text on screens <= 752px */
+}

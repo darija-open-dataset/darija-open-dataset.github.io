@@ -1,0 +1,16 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled files
+*.log
+*.tmp
+
+# Ignore environment configuration files with sensitive information
+.env
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+cypress/downloads
